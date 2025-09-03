@@ -3,10 +3,10 @@
 #include <iostream>
 #include <thread>
 
-const DWORD dwLocalPlayerPawn = 0x1AF4B80; // local player base
-const DWORD m_pCameraServices = 0x1438;    // camera services offset
-const DWORD m_iFOV = 0x288;                // fov value offset
-const DWORD m_bIsScoped = 0x28B0;          // scoped status offset
+const DWORD dwLocalPlayerPawn = 0x1BEC440; // local player base
+const DWORD m_pCameraServices = 0x1438; // camera services offset
+const DWORD m_iFOV = 0x288; // fov value offset
+const DWORD m_bIsScoped = 0x2728; // scoped status offset
 
 // process perms we need
 const DWORD PROCESS_ACCESS = PROCESS_VM_READ | PROCESS_VM_WRITE | PROCESS_VM_OPERATION;
